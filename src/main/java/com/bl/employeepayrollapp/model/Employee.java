@@ -19,6 +19,10 @@ public class Employee {
         this.account = account;
     }
 
+    public Employee(String empId, String name) {
+        this(empId, name, null, null, null);
+    }
+
     @Override
     public String toString() {
         return "Employee Registered Successfully:\n" +
@@ -34,5 +38,13 @@ public class Employee {
         FileWriter writer = new FileWriter("employee_data.txt", true);
         writer.write(empId + "," + name + "," + email + "," + phone + "," + account.getUsername() + "\n");
         writer.close();
+    }
+
+    public String getEmpId() {
+        return empId;
+    }
+
+    public String getName() {
+        return name;
     }
 }
