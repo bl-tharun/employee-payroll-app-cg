@@ -1,7 +1,7 @@
 package com.bl.employeepayrollapp.service;
 
 import com.bl.employeepayrollapp.model.Employee;
-import com.bl.employeepayrollapp.model.Payslip;
+import com.bl.employeepayrollapp.model.uc4.Payslip;
 
 class PayrollService {
 

@@ -1,6 +1,6 @@
 package com.bl.employeepayrollapp;
 
-import com.bl.employeepayrollapp.model.Payslip;
+import com.bl.employeepayrollapp.model.uc4.Payslip;
 import com.bl.employeepayrollapp.service.FileService;
 import com.bl.employeepayrollapp.session.DownloadToken;
 

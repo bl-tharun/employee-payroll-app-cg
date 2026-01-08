@@ -1,4 +1,4 @@
-package com.bl.employeepayrollapp.model;
+package com.bl.employeepayrollapp.model.uc4;
 
 public final class Payslip implements Cloneable {
 

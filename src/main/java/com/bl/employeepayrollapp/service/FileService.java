@@ -1,6 +1,6 @@
 package com.bl.employeepayrollapp.service;
 
-import com.bl.employeepayrollapp.model.Payslip;
+import com.bl.employeepayrollapp.model.uc4.Payslip;
 
 import java.io.FileWriter;
 import java.io.IOException;
